@@ -1,0 +1,114 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(231, 231, 74);
+    padding: 15px;
+}
+
+.containerMoreRead {
+    width: 100%;
+    padding: 15px;
+}
+
+.card {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.cardNews {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardTitle {
+    width: 65%;
+    font-size: 18px;
+
+
+}
+
+.cardImage {
+    width: 100%;
+    max-width: 100px;
+
+}
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.item {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 18%;
+    border-radius: 8px;
+}
+
+.item:hover {
+    color: white;
+    background-color: rgb(202, 61, 6);
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(202, 61, 6);
+    color: white;
+}
+
+.containerNews {
+    margin-bottom: 15px;
+}
+
+.news {
+    margin-bottom: 8px;
+}
+
+.hr {
+    margin: 8px 0;
+}
+
+.newsTitle {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsImages {
+    width: 100%;
+    border-radius: 4px;
+    max-width: 500px;
+    margin-bottom: 8px;
+}
+
+.seeMore {
+    background-color: rgb(231, 231, 74);
+    padding: 5px;
+    margin: 8px 0px;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
